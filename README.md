@@ -32,6 +32,6 @@ ___
 - [x] completar tabla de estados
 - [x] completar tabla de municipios.
 - [ ] completar tabla de colonias.
-- [ ] interfaz de doctores.
+- [x] interfaz de doctores.
 - [x] interfaz de usuarios.
-- [ ] entregar
+- [x] entregar

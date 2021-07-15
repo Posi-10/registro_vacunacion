@@ -42,7 +42,7 @@
                 <div class="col-sm-12">
                   <div class="row">
                     <div class="col-sm-4">
-                      <label for="registro_nombre" class="form-label ">Nombre</label>
+                      <label for="datos_nombre" class="form-label ">Nombre</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-user"></i></span>
                         <input disabled type="text" class="form-control rounded-start rounded-pill" id="datos_nombre" name="datos_nombre" required>
@@ -52,7 +52,7 @@
                       </div>
                     </div>
                     <div class="col-sm-4">
-                      <label for="registro_a_paterno" class="form-label ">Apellido paterno</label>
+                      <label for="datos_a_paterno" class="form-label ">Apellido paterno</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-user"></i></span>
                         <input disabled type="text" class="form-control rounded-start rounded-pill" id="datos_a_paterno" name="datos_a_paterno" required>
@@ -62,7 +62,7 @@
                       </div>
                     </div>
                     <div class="col-sm-4">
-                      <label for="registro_a_materno" class="form-label ">Apellido materno</label>
+                      <label for="datos_a_materno" class="form-label ">Apellido materno</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-user"></i></span>
                         <input disabled type="text" class="form-control rounded-start rounded-pill" id="datos_a_materno" name="datos_a_materno" required>
@@ -74,7 +74,7 @@
                   </div>
                   <div class="row">
                     <div class="col-sm-4">
-                      <label for="registro_fecha" class="form-label ">Fecha de nacimiento</label>
+                      <label for="datos_fecha" class="form-label ">Fecha de nacimiento</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-calendar-alt"></i></span>
                         <input disabled type="date" class="form-control rounded-start rounded-pill" id="datos_fecha" name="datos_fecha" min="1921-07-15" max="2003-07-15" required>
@@ -84,7 +84,7 @@
                       </div>
                     </div>
                     <div class="col-sm-3">
-                      <label for="registro_sexo" class="form-label ">Sexo</label>
+                      <label for="datos_sexo" class="form-label ">Sexo</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-transgender-alt"></i></span>
                         <select disabled class="form-control rounded-start rounded-pill" id="datos_sexo" name="datos_sexo" required>
@@ -99,7 +99,7 @@
                       </div>
                     </div>
                     <div class="col-sm-5">
-                      <label for="registro_curp" class="form-label ">CURP</label>
+                      <label for="datos_curp" class="form-label ">CURP</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-id-badge"></i></span>
                         <input disabled type="text" class="form-control rounded-start rounded-pill" id="datos_curp" name="datos_curp" onblur="cambiarAMayuscula(this)" required>
@@ -111,7 +111,7 @@
                   </div>
                   <div class="row">
                     <div class="col-sm-4">
-                      <label for="registro_estado" class="form-label ">Estado</label>
+                      <label for="datos_estado" class="form-label ">Estado</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-map-marked-alt"></i></span>
                         <select disabled class="form-control rounded-start rounded-pill" id="datos_estado" name="datos_estado" required>
@@ -122,7 +122,7 @@
                       </div>
                     </div>
                     <div class="col-sm-4">
-                      <label for="registro_municipio" class="form-label ">Municipio</label>
+                      <label for="datos_municipio" class="form-label ">Municipio</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-map-marked-alt"></i></span>
                         <select disabled class="form-control rounded-start rounded-pill" id="datos_municipio" name="datos_municipio" required>
@@ -134,7 +134,7 @@
                       </div>
                     </div>
                     <div class="col-sm-4">
-                      <label for="registro_colonia" class="form-label ">Colonia</label>
+                      <label for="datos_colonia" class="form-label ">Colonia</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-map-marked-alt"></i></span>
                         <select disabled class="form-control rounded-start rounded-pill" id="datos_colonia" name="datos_colonia" required>
@@ -148,7 +148,7 @@
                   </div>
                   <div class="row">
                     <div class="col-sm-8">
-                      <label for="registro_direccion" class="form-label ">Direccion</label>
+                      <label for="datos_direccion" class="form-label ">Direccion</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-map-marker-alt"></i></span>
                         <input disabled type="text" class="form-control rounded-start rounded-pill" id="datos_direccion" name="datos_direccion" required>
@@ -158,7 +158,7 @@
                       </div>
                     </div>
                     <div class="col-sm-4">
-                      <label for="registro_cp" class="form-label ">Codigo postal</label>
+                      <label for="datos_cp" class="form-label ">Codigo postal</label>
                       <div class="input-group mb-2">
                         <span class="input-group-text rounded-end rounded-pill" id="addon-wrapping"><i class="fas fa-map-marked-alt"></i></span>
                         <input disabled type="text" class="form-control rounded-start rounded-pill" id="datos_cp" name="datos_cp" required>

@@ -12,7 +12,18 @@
       <?php
         if(isset($_GET['view'])){
           switch($_GET['view']){
-            case 'login':{
+            case 'login_doctor':{
+              require_once 'view/login_doctor.php';
+              break;
+            }
+            case 'registro_doctor':{
+              require_once 'view/registro_doctor.php';
+              break;
+            }
+            case 'inicio_doctor':{
+              require_once 'view/inicio_doctor.php';
+              break;
+            }case 'login':{
               require_once 'view/login.php';
               break;
             }
