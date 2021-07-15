@@ -1,7 +1,7 @@
 <div class="container-fluid sticky-top">
   <div class="row">
     <div class="col m-0 p-0">
-      <nav id="navbar_inicio" class="navbar navbar-dark bg-secondary bg-gradient text-white px-3">
+      <nav id="navbar_inicio" class="navbar navbar-dark bg-success bg-gradient text-white px-3">
         <a class="navbar-brand" href="#"><img src="raw/img/escudo.png" width="8%" class="mr-2"><img src="raw/img/secretaria de salud.png" width="18%" class="ml-2"></a>
       </nav>
     </div>
